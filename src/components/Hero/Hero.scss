@@ -1,0 +1,24 @@
+.hero {
+  padding: 26px 0;
+  margin-bottom: 23px;
+
+  .img {
+    max-width: 396px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .title {
+    font-size: 40px;
+    margin: 32px 0 16px;
+  }
+
+  .subtitle {
+    max-width: 320px;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+}

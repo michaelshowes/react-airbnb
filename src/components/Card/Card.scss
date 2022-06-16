@@ -1,0 +1,72 @@
+.card {
+  width: 176px;
+  font-size: 12px;
+  font-weight: 300;
+  flex-shrink: 0;
+
+  .img {
+    position: relative;
+    width: 100%;
+    border-radius: 9px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+
+    .status {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      background-color: #fff;
+      font-size: 10px;
+      text-transform: uppercase;
+      padding: 5px 6px;
+      border-radius: 2px;
+    }
+  }
+
+  .stats {
+    display: flex;
+    margin: 9px 0;
+
+    .rating {
+      display: flex;
+      margin-right: 2px;
+
+      &::before {
+        display: inline-block;
+        content: '';
+        background-image: url('../../assets/images/star.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 14px;
+        height: 100%;
+        margin-right: 2px;
+      }
+    }
+
+    .reviews {
+      color: #918E9B;
+      margin-right: 2px;
+    }
+
+    .location {
+      display: flex;
+      color: #918E9B;
+      align-items: center;
+    }
+  }
+
+  .title {
+    margin-bottom: 8px;
+  }
+
+  .price {
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
